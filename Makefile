@@ -12,7 +12,13 @@ all: $(XCF) $(SVG)
 .PHONY: clean
 clean:
 	@rm -rf build
+
+.PHONY: deploy
+deploy: all
+	cp build/UI/*.png ~/.config/ppsspp/PSP/TEXTURES/ULJS00244/UI/
 	
+build/textures.ini: src/textures.ini
+	@cp $< $@
 
 build/%.png: src/svg/%.svg
 	@mkdir -p $$(dirname $@)
@@ -20,4 +26,6 @@ build/%.png: src/svg/%.svg
 
 build/%.png: src/xcf/%.xcf
 	@mkdir -p $$(dirname $@)
-	convert $< -flatten -transparent white $@
+	magick $< -background transparent -flatten $@
+
+
