@@ -290,13 +290,13 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1141"
+     inkscape:window-height="1021"
      id="namedview4"
      showgrid="false"
      inkscape:pagecheckerboard="true"
-     inkscape:zoom="0.32593203"
-     inkscape:cx="-503.04684"
-     inkscape:cy="169.4983"
+     inkscape:zoom="0.92187499"
+     inkscape:cx="173.24133"
+     inkscape:cy="804.64871"
      inkscape:window-x="0"
      inkscape:window-y="33"
      inkscape:window-maximized="1"
@@ -314,7 +314,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Reference"
-     style="display:none">
+     style="display:inline">
     <image
        width="1024"
        height="1024"
@@ -335,7 +335,7 @@
        id="rect1014"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccc"
-       transform="matrix(-1,0,0,1,437.61913,0)" />
+       transform="matrix(-0.97388497,0,0,1,427.99966,0)" />
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        id="rect1126"
