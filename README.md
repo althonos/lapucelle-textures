@@ -3,6 +3,7 @@
 *A PPSSPP texture pack for La Pucelle: Ragnarok*
 
 [![Source](https://img.shields.io/badge/source-GitHub-303030.svg?maxAge=2678400&style=flat-square)](https://github.com/althonos/lapucelle-textures)
+[![License](https://img.shields.io/badge/license-CC--NC-blue.svg?maxAge=2678400&style=flat-square)](https://creativecommons.org/licenses/nc/1.0/)
 
 ## About
 
@@ -36,15 +37,27 @@ are not to your liking:
 
 *Screenshots were taken with **PPSPP** in 6x resolution and 3x texture upscaling.*
 
-### Dialogs
 
-![Dialog (new)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen1-new.png)
-![Dialog (old)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen1-old.png)
+### Cutscene
+
+![Cutscene (new)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen1-new.png)
+![Cutscene (old)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen1-old.png)
+
+### Victory conditions
+
+![Victory conditions (new)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen5-new.png)
+![Victory conditions (old)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen5-old.png)
 
 ### Battle screen
 
 ![Battle (new)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen3-new.png)
 ![Battle (old)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen3-old.png)
+
+### Dialog
+
+![Dialog (new)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen4-new.png)
+![Dialog (old)](https://raw.githubusercontent.com/althonos/lapucelle-textures/master/static/screen4-old.png)
+
 
 ## Roadmap
 
@@ -97,7 +110,7 @@ general idea of some texts more than actually creating a pixel-perfect
 replacement. To do so, I used the following fonts:
 
 * **Nimbus Roman**: as surprising as it can be, most of the large serif
-  text in the game is written in **Times New Roman**. I use Nimbus  
+  text in the game is written in **Times New Roman**. I used Nimbus
   as it is a free alternative with the exact same features and metrics.
   It is also used (with extra stroke width) to display inflicted damage 
   during battle animations.
@@ -119,6 +132,8 @@ replacement. To do so, I used the following fonts:
   features of an old-english / historical font, with for instance `l`
   characters having a diagonal leg. I used **Intro Head** as it provides
   a script look with high legibility. I may try other options later.
+  I'll experiment with gothic fonts later but I fear it may not be nearly
+  as legible.
 
 * **Pricedrop** and **Baloo**: the battle UI contains a lot of different 
   characters, once again without any free alternative. The original font
