@@ -109,13 +109,15 @@ being available as public fonts, so I tried my best to replicate the
 general idea of some texts more than actually creating a pixel-perfect
 replacement. To do so, I used the following fonts:
 
-* **Nimbus Roman**: as surprising as it can be, most of the large serif
+* [**Nimbus Roman**](https://fonts.adobe.com/fonts/nimbus-roman): 
+  as surprising as it can be, most of the large serif
   text in the game is written in **Times New Roman**. I used Nimbus
   as it is a free alternative with the exact same features and metrics.
   It is also used (with extra stroke width) to display inflicted damage 
   during battle animations.
 
-* **RobotoMono**: the English-patched version of the game features a 
+* [**RobotoMono**](https://fonts.google.com/specimen/Roboto+Mono): 
+  the English-patched version of the game features a 
   compact sans-serif monospace font that looks like **Arial**. In the 
   best of all possible worlds, I would have used the same font as the
   Disgaea ports, but I couldn't find it online, so I had to resort 
@@ -126,7 +128,8 @@ replacement. To do so, I used the following fonts:
   exception is the barred `0` that does not look so good, so I used the
   original Roboto glyph for this one.
 
-* **Intro Head B**: the font used to display the *Victory Conditions*
+* [**Intro Head B**](https://www.myfonts.com/fonts/font-fabric/intro-rust/head-b-base/): 
+  the font used to display the *Victory Conditions*
   at the beginning of a battle looks weird for several reasons: I assume
   it is sans-serif looking at the original screen, but it also has the 
   features of an old-english / historical font, with for instance `l`
@@ -135,11 +138,12 @@ replacement. To do so, I used the following fonts:
   I'll experiment with gothic fonts later but I fear it may not be nearly
   as legible.
 
-* **Pricedrop** and **Baloo**: the battle UI contains a lot of different 
-  characters, once again without any free alternative. The original font
-  for the stats is a blocky wide sans-serif, but I figured it would add more 
-  personality to use a puffy script font with about the same width instead.
-  Because the free Pricedrop does not contain numbers and special 
+* [**Pricedrop**](https://www.dafont.com/pricedrop.font) and 
+  [**Baloo**](https://www.fontsquirrel.com/fonts/baloo): the battle UI 
+  contains a lot of different characters, once again without any free alternative. 
+  The original font for the stats is a blocky wide sans-serif, but I figured 
+  it would add more personality to use a puffy script font with about the same 
+  width instead. Because the free Pricedrop does not contain numbers and special 
   characters, I used Baloo, a wide sans-serif, for the remaining glyphs.
 
 
@@ -147,7 +151,7 @@ replacement. To do so, I used the following fonts:
 
 To build this project for source, you must have Inkscape and GIMP installed,
 as well as the various fonts listed above (they can all be found for free 
-on websites such as ![DaFont](https://www.dafont.com).
+on websites such as [DaFont](https://www.dafont.com).
 
 The simply run `make` to generate all textures, or `make sdist` to create the
 a distributable ZIP archive.
