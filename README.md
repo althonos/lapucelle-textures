@@ -5,6 +5,7 @@
 [![Source](https://img.shields.io/badge/source-GitHub-303030.svg?maxAge=2678400&style=flat-square)](https://github.com/althonos/lapucelle-textures)
 [![License](https://img.shields.io/badge/license-CC--NC-blue.svg?maxAge=2678400&style=flat-square)](https://creativecommons.org/licenses/nc/1.0/)
 [![Release](https://img.shields.io/github/release/althonos/lapucelle-textures.svg?maxAge=3600&style=flat-square)](https://github.com/althonos/lapucelle-textures/releases/latest)
+[![BBS](https://img.shields.io/badge/bbs-ppsspp.org-9cf.svg?maxAge=2678400&style=flat-square)](https://forums.ppsspp.org/showthread.php?tid=25471)
 
 ## About
 
