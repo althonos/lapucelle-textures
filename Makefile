@@ -12,7 +12,7 @@ DSTDIR := dist
 # Source files.
 SVG := $(patsubst ${SRCDIR}/svg/%.svg, ${BLDDIR}/%.png, $(call rwildcard, ${SRCDIR}/svg, *.svg))
 XCF := $(patsubst ${SRCDIR}/xcf/%.xcf, ${BLDDIR}/%.png, $(call rwildcard, ${SRCDIR}/xcf, *.xcf))
-INI := ${BLDDIR}/textures.ini
+INI := ${BLDDIR}/${GAMEUID}/textures.ini
 MD  := ${BLDDIR}/README.md ${BLDDIR}/COPYING.md ${BLDDIR}/CHANGELOG.md
 ZIP := ${GAMEUID}-v${VERSION}.zip
 
@@ -39,7 +39,7 @@ ${BLDDIR}/%.md: %.md
 	@mkdir -p $$(dirname $@)
 	@cp $< $@
 
-${BLDDIR}/textures.ini: ${SRCDIR}/textures.ini
+${BLDDIR}/${GAMEUID}/textures.ini: ${SRCDIR}/textures.ini
 	@mkdir -p $$(dirname $@)
 	@cp $< $@
 
