@@ -16,5 +16,5 @@
 - Modern button icons using [Xelu's prompt pack] (x4 resolution)
 - New dialog box and battle interface frame using a higher resolution art frame (x4 resolution)
 
-[item sprites from Disgaea PC]: https://www.spriters-resource.com/pc_computer/disgaea2pc/sheet/109748/
+[item sprites from Disgaea 5 PC]: https://www.spriters-resource.com/pc_computer/disgaea2pc/sheet/109748/
 [Xelu's prompt pack]: https://opengameart.org/content/free-keyboard-and-controllers-prompts-pack

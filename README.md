@@ -4,7 +4,7 @@
 
 [![Source](https://img.shields.io/badge/source-GitHub-303030.svg?maxAge=2678400&style=flat-square)](https://github.com/althonos/lapucelle-textures)
 [![License](https://img.shields.io/badge/license-CC--NC-blue.svg?maxAge=2678400&style=flat-square)](https://creativecommons.org/licenses/nc/1.0/)
-[![Release](https://img.shields.io/github/release/althonos/lapucelle-textures.svg?maxAge=2678400&style=flat-square)](https://github.com/althonos/lapucelle-textures/releases/latest)
+[![Release](https://img.shields.io/github/release/althonos/lapucelle-textures.svg?maxAge=3600&style=flat-square)](https://github.com/althonos/lapucelle-textures/releases/latest)
 
 ## About
 
