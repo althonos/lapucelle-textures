@@ -4,7 +4,7 @@ rwildcard=$(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2) $(filter $(subst 
 # Configuration variables for the pack
 VERSION := 0.1.0
 GAMEUID := ULJS00244
-PREFIX := ${HOME}/.config/ppsspp/PSP/TEXTURES/${GAMEUID}
+PREFIX := ${HOME}/.config/ppsspp/PSP/TEXTURES/
 SRCDIR := src
 BLDDIR := build
 DSTDIR := dist
